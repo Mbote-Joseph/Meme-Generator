@@ -1,46 +1,39 @@
-.meme{
-    margin-top: 50px;
-    padding: 20px;
+.meme {
+  margin-top: 50px;
+  padding: 20px;
 }
 .form {
-    display: grid;
-    grid-template: 50px 50px / 1fr 1fr;
-    gap: 17px;
-    
+  display: grid;
+  grid-template: 50px 50px / 1fr 1fr;
+  gap: 17px;
 }
 
 .form--inputs {
-    font-family: "Karla", sans-serif;
-    border-radius: 5px;
-    border: 1px solid #D5D4D8;
-    text-indent: 5px;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+  text-indent: 5px;
 }
 
 .form--button {
-    grid-column: 1 / -1;
-    font-family: "Karla", sans-serif;
-    border-radius: 5px;
-    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
-    border: none;
-    cursor: pointer;
-    font-family: 'Karla';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    color: #ffffff
-
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border: none;
+  cursor: pointer;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
 }
-.imageGenerated{
-    /* width: 100%; */
-    left:0;
-    right:0;
-   
+.imageGenerated {
+  /* width: 100%; */
+  left: 0;
+  right: 0;
 
-    text-align: center;
-    
-    
-    
-    
+  text-align: center;
 }
 /* .generatedImage{
     max-width: 600px;
@@ -55,53 +48,47 @@
  
 
 } */
-.generatedImage{
-    text-align: center;
-    margin-left: 40%;
-    margin-right: 40%;
-    min-height: 400px;
-    min-width: 500px;
-    
-   
-    
+.generatedImage {
+  text-align: center;
+  margin-left: 40%;
+  margin-right: 40%;
+  min-height: 400px;
+  min-width: 500px;
 }
 
-.top{
-    text-align: center;
-    z-index: 56;
-    font-family: 'Impact';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 39px;
-    /* identical to box height */
+.top {
+  text-align: center;
+  z-index: 56;
+  font-family: "Impact";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
 
+  color: #000;
 
-    color: #000;
-
-    border: 2px solid #000000;
-    margin-left: 45%;
-    /* margin-top: 100px; */
+  border: 2px solid #000000;
+  margin-left: 45%;
+  /* margin-top: 100px; */
 }
-.bottom{
-    text-align: center;
-    margin-top: -50px;
-    z-index: 2;
-    font-family: 'Impact';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 39px;
-    /* identical to box height */
+.bottom {
+  text-align: center;
+  margin-top: -50px;
+  z-index: 2;
+  font-family: "Impact";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
 
+  color: #ffffff;
 
-    color: #FFFFFF;
-
-    border: 2px solid #000000;
-    margin-left: 45%
-    
+  border: 2px solid #000000;
+  margin-left: 45%;
 }
 
-img{
-    /* z-index: -2; */
+img {
+  /* z-index: -2; */
 }
