@@ -8,7 +8,7 @@ let Header=()=>{
         <img src={trollImage} alt="_blank" />
         <h2>Meme Generator</h2>
         </div>
-        <h4>React Course - Project 3</h4>
+        <h4>Mbote Joseph</h4>
 
         </header>
     )
