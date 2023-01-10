@@ -29,25 +29,11 @@
   color: #ffffff;
 }
 .imageGenerated {
-  /* width: 100%; */
   left: 0;
   right: 0;
 
   text-align: center;
 }
-/* .generatedImage{
-    max-width: 600px;
-    max-height: 600px;
-    min-height: 300px;
-    min-width: 300px;
-    margin-left: 40%;
-    margin-right: 30%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
- 
-
-} */
 .generatedImage {
   text-align: center;
   margin-left: 40%;
@@ -64,7 +50,6 @@
   font-weight: 900;
   font-size: 32px;
   line-height: 39px;
-  /* identical to box height */
 
   color: #000;
 
@@ -81,14 +66,9 @@
   font-weight: 900;
   font-size: 32px;
   line-height: 39px;
-  /* identical to box height */
 
   color: #ffffff;
 
   border: 2px solid #000000;
   margin-left: 45%;
-}
-
-img {
-  /* z-index: -2; */
 }
