@@ -58,7 +58,12 @@ let Meme=()=>{
         <input className="form--inputs col-12 col-md-12 col-sm-12" type="text" placeholder="Bottom Text" id="bottom"  onChange={onChangeBottom} />
         <button className="form--button" onClick={handleClick}>Get a new meme image  🖼 </button>
         <div className="imageGenerated ">
-        <h2 className="top">{top}</h2>
+        {
+            image ?
+            <h2 className="top">{top}</h2>
+            :
+            " "
+    }
         {
             image ? 
             <img className="generatedImage img-fluid" src={image} alt={name}  />
@@ -66,8 +71,12 @@ let Meme=()=>{
             ""
         }
 
-        
+        {
+            image ?
         <h2 className="bottom">{bottom}</h2>
+        :
+        " "
+    }
         </div>
         </form>
 
