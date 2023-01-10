@@ -6,6 +6,8 @@ import { useState} from 'react';
 let Meme=()=>{
     const [image, setImage]= useState("");
     const [name, setName]= useState("");
+    const [top, setTop]= useState("")
+    const [bottom, setBottom]= useState("")
     
 
     let Data= data.data.memes;
@@ -34,19 +36,38 @@ let Meme=()=>{
         setName(imageDetails.name);
     }
 
+    let onChangeTop=(e)=>{
+        e.preventDefault();
+        // setTop= e.value;
+        let topContent= document.getElementById("top").value;
+        console.log(topContent)
+        setTop(topContent)
+    }
+    let onChangeBottom=(e)=>{
+        e.preventDefault();
+        // setTop= e.value;
+        let bottomContent= document.getElementById("bottom").value;
+        console.log(bottomContent)
+        setBottom(bottomContent)
+    }
+
     return(
         <div className="meme">
         <form className="form col-12">
-        <input className="form--inputs col-12 col-md-12 col-sm-12" type="text" placeholder="Top Text" />
-        <input className="form--inputs col-12 col-md-12 col-sm-12" type="text" placeholder="Bottom Text" />
+        <input className="form--inputs col-12 col-md-12 col-sm-12" type="text" placeholder="Top Text" id="top" onChange={onChangeTop} />
+        <input className="form--inputs col-12 col-md-12 col-sm-12" type="text" placeholder="Bottom Text" id="bottom"  onChange={onChangeBottom} />
         <button className="form--button" onClick={handleClick}>Get a new meme image  🖼 </button>
         <div className="imageGenerated ">
+        <h2 className="top">{top}</h2>
         {
             image ? 
             <img className="generatedImage img-fluid" src={image} alt={name}  />
             : 
             ""
         }
+
+        
+        <h2 className="bottom">{bottom}</h2>
         </div>
         </form>
 
