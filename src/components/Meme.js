@@ -43,7 +43,7 @@ let Meme=()=>{
         <div className="imageGenerated">
         {
             image ? 
-            <img src={image} alt={name}  />
+            <img className="generatedImage" src={image} alt={name}  />
             : 
             ""
         }
