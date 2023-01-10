@@ -36,14 +36,14 @@ let Meme=()=>{
 
     return(
         <div className="meme">
-        <form className="form">
-        <input className="form--inputs" type="text" placeholder="Top Text" />
-        <input className="form--inputs" type="text" placeholder="Bottom Text" />
+        <form className="form col-12">
+        <input className="form--inputs col-12 col-md-12 col-sm-12" type="text" placeholder="Top Text" />
+        <input className="form--inputs col-12 col-md-12 col-sm-12" type="text" placeholder="Bottom Text" />
         <button className="form--button" onClick={handleClick}>Get a new meme image  🖼 </button>
-        <div className="imageGenerated">
+        <div className="imageGenerated ">
         {
             image ? 
-            <img className="generatedImage" src={image} alt={name}  />
+            <img className="generatedImage img-fluid" src={image} alt={name}  />
             : 
             ""
         }
