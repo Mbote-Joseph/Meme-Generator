@@ -1,0 +1,21 @@
+header{
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    position: absolute;
+    left:0px;
+    top:0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    height: 70px;
+    padding: 10px;
+    color: white;
+
+}
+
+.image{
+    display: flex;
+}
+h2{
+    margin-left: 10px;
+}
